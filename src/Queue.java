@@ -1,5 +1,4 @@
-import java.util.Iterator;
-import java.util.LinkedList;
+
 
 // One of the most useful data structures.
 // FIFO -> First In, First Out
@@ -7,12 +6,59 @@ import java.util.LinkedList;
 // Models real world queues! Waiting in line!
 // Often used in server management (first come / first serve)
 // BFS graph traversal
-public class Queue <T> implements Iterable <T>{
+public class Queue {
 
-    private LinkedList<T> list = new LinkedList<>();
+    // Inner Node class to create nodes within the queue
+    private static class Node {
+        private int data; // Holds the data within the node of type int
+        private Node next; // Pointer to the next node in the queue;
 
-    @Override
-    public Iterator<T> iterator() {
-        return null;
+        private Node (int data){ // Node constructor
+            this.data = data;
+        }
     }
+
+    private Node head; // Remove from the head
+    private Node tail; // Where things will be added
+
+    public Node getHead(){
+        return head;
+    }
+
+    public boolean isEmpty(){
+        return head == null;
+    }
+
+    public int peek(){
+        try{
+            return head.data;
+        }
+        catch (NullPointerException e){
+            e.printStackTrace();
+            return -1;
+        }
+    }
+
+    public void add(int data){
+        Node node = new Node(data);
+        if (tail != null){
+            tail.next = node;
+        }
+        tail = node;
+        if (head == null){
+            head = node;
+        }
+    }
+    public int  remove(){
+        int data = head.data;
+        head = head.next;
+
+        if (head == null){
+            tail = null;
+        }
+        return data;
+    }
+
+
+
 }

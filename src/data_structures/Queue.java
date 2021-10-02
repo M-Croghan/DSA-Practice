@@ -1,4 +1,4 @@
-
+package data_structures;
 
 // One of the most useful data structures.
 // FIFO -> First In, First Out

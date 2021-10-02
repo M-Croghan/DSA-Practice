@@ -1,4 +1,4 @@
-// One-ended linear data structure which models a real world stack (maye a stack of plates).
+package data_structures;// One-ended linear data structure which models a real world stack (maye a stack of plates).
 // LIFO - Last In, First Out
 // Two major operations: .push() - adds to the top stack || .pop() - removes first item on top of the stack.
 

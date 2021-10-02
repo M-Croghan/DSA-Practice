@@ -1,3 +1,5 @@
+package searching_sorting;
+
 // Unstable vs. Stable Algorithms
 // If an array has two of the same value, will the relative value of them stay the same when sorted?
 // In UNSTABLE - relative position will not be preserved. In STABLE - position WILL be preserved.

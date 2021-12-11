@@ -1,3 +1,5 @@
+package designpatterns;
+
 public class Singleton {
     private Singleton(){}
 

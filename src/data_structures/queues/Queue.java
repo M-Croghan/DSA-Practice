@@ -1,4 +1,4 @@
-package data_structures;
+package data_structures.queues;
 
 // One of the most useful data structures.
 // FIFO -> First In, First Out

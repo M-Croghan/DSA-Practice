@@ -1,4 +1,4 @@
-package data_structures;/* Arrays are one of the most basic data structures. They are a fundamental building blocck for
+package data_structures.arrays;/* Arrays are one of the most basic data structures. They are a fundamental building blocck for
  * many other data structures. They're indexable from range [0, n-1]. Specifically in Java,
  * they're fixed / not dynamic, meaning that once they're created, they'll be fixed to the given size.
  * Arrays are stored as a contiguous block of memory and every element occupies the same amount of space in memory.

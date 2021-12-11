@@ -1,4 +1,4 @@
-package data_structures;
+package data_structures.hashtables;
 
 // The Map interface implements: HashMap, HashTable, LinkedHashMap, & TreeHashMap
 // Thread Safe & Synchronized? HashMap - No, HashTable - Yes

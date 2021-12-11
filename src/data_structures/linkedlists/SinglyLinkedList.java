@@ -1,4 +1,4 @@
-package data_structures;// Linked list is a sequential list of nodes which hold data, which point to other nodes.
+package data_structures.linkedlists;// Linked list is a sequential list of nodes which hold data, which point to other nodes.
 // Most commonly used: lists, stacks, queues. Also, great for circular lists.
 // More advanced: Hash table chaining & adjacency lists.
 

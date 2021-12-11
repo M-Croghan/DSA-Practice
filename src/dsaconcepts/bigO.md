@@ -1,4 +1,4 @@
-*** Big O & Complexity Analysis ***
+# Big O & Complexity Analysis
 We often ask 2 main questions:
     1) How much time does this algorithm need to finish?
     2) How much space does this algorithm need for its computation?

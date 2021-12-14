@@ -22,7 +22,7 @@ This project is broken down into 5 key areas:
 * Design Patterns: Solving Common Problems
 
 ## TABLE OF CONTENTS
-###[DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsaconcepts)
+### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsaconcepts)
 * []()
 * []()
 * []()

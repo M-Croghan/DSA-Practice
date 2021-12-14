@@ -22,4 +22,37 @@ This project is broken down into 5 key areas:
 * Design Patterns: Solving Common Problems
 
 ## TABLE OF CONTENTS
+###[DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsaconcepts)
+* []()
+* []()
+* []()
+* []()
 
+
+### [DATA STRUCTURES](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures)
+* [Arrays](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/arrays)
+* [Linked Lists](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/linkedlists)
+* [Stacks](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/stacks)
+* [Queues](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/queues)
+* [Hash Tables](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/hashtables)
+* [Sets](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/sets)
+* [Trees](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/trees)
+* [Tries](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/tries)
+* [Graphs](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/graphs)
+
+### [ALGORITHMS]()
+* []()
+* []()
+* []()
+
+### [PROBLEM-SOLVING](https://github.com/M-Croghan/DSA-Practice/tree/main/src/problemsolving)
+* []()
+* []()
+* []()
+* []()
+
+### [DESIGN PATTERNS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/designpatterns)
+* []()
+* []()
+* []()
+* []()

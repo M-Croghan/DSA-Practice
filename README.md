@@ -1,9 +1,25 @@
-# DATA STRUCTURES & ALGORITHMS NOTEBOOK!
+# ALGORITHMIC PROBLEM SOLVING: DATA STRUCTURES & ALGORITHMS 
 
-Like all fresh computer science graduates - job preparation and interviewing lies ahead.
-Admittedly, I have a tremendous amount to learn as I embark on my career. Its stressful & daunting...
-But the best way I have found to gain from the struggle is to organize my effort as best as I can.
+## INTRODUCTION
+As a fresh computer science graduate, it became glaringly obvious that I had a tremendous amount to learn
+in the way of solving complex problems. While I had been exposed to data structures and algorithms, my confidence
+/ proficiency in using them was lacking. Knowing that the barrier for an entry-level software engineering position
+would include coding challenges and technical questions surrounding these important topics, I started this project
+as a way to _"learn by doing"_.  
 
-I figured I could blend honing my skills by keeping a repo of my studies as it relates to DS&A and
-LeetCode style practice while simultaneously honing my Git skills. I know IDEs & Desktop apps make VCS a breeze
-but I worry about not having a grater knowledge on pushing / pulling via the command line.
+Some of my greatest breakthroughs in understanding have come through the deliberate and mindful exploration of a
+topic, as opposed to merely attending a lecture, watching a video, or reading a book. The best learning comes through
+directed practice and this project serves as a journey to mastering these vitally important skills and concepts.    
+
+My goal is to become the best engineer I can be, someone a team ***wants*** to have on their side to help solve complex
+issues and help others gain insight in this critically important area of computer science. 
+
+This project is broken down into 5 key areas:
+* DS&A Concepts: Analyzing Space / Time Complexity
+* Data Structures: Implementation from Scratch
+* Algorithms: Searching, Sorting, & Beyond
+* Problem-Solving: Common Coding Problems
+* Design Patterns: Solving Common Problems
+
+## TABLE OF CONTENTS
+

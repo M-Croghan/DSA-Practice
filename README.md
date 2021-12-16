@@ -22,9 +22,9 @@ This project is broken down into 5 key areas:
 * Design Patterns: Solving Common Problems
 
 ## TABLE OF CONTENTS
-### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsaconcepts)
-* []()
-* []()
+### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsa_concepts)
+* [Intro to Big-O](https://github.com/M-Croghan/DSA-Practice/blob/main/src/dsa_concepts/bigO.md#big-o--complexity-analysis)
+* [Intro to Data Structures & Abstract Data Types](https://github.com/M-Croghan/DSA-Practice/blob/main/src/dsa_concepts/ds_and_adt.md#data-structures--advanaced-data-types)
 * []()
 * []()
 
@@ -40,18 +40,18 @@ This project is broken down into 5 key areas:
 * [Tries](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/tries)
 * [Graphs](https://github.com/M-Croghan/DSA-Practice/tree/main/src/data_structures/graphs)
 
-### [ALGORITHMS]()
+### [ALGORITHMS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/algorithms)
+* [Overview: Search Algorithms](https://github.com/M-Croghan/DSA-Practice/blob/main/src/algorithms/overviewSearchAlgorithms.md#overview-search-algorithms)
+* [Overview: Sorting Algorithms](https://github.com/M-Croghan/DSA-Practice/blob/main/src/algorithms/overviewSortingAlgorithms.md#overview-searching--sorting)
+* []()
+
+### [PROBLEM-SOLVING](https://github.com/M-Croghan/DSA-Practice/tree/main/src/problem_solving)
+* []()
 * []()
 * []()
 * []()
 
-### [PROBLEM-SOLVING](https://github.com/M-Croghan/DSA-Practice/tree/main/src/problemsolving)
-* []()
-* []()
-* []()
-* []()
-
-### [DESIGN PATTERNS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/designpatterns)
+### [DESIGN PATTERNS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/design_patterns)
 * []()
 * []()
 * []()

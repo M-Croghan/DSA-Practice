@@ -13,6 +13,11 @@ it is still an important factor to consider. At times, there may exist a trade-o
 - Need to compute things faster? It'll most likely require more memory.
 - Need to be memory efficient? It may involve decrements in speed.
 
+## CLASSIFYING COMPLEXITY
+- **Big Omega (Ω)** - Best Case
+- **Big Theta (Θ)** - Average Case
+- **Big _O_ (O)** - Worst Case
+
 ## CALCULATING BIG-O
 1. Always assume the worst case!
    1. Average & best case situations are great. The element you're looking for _might_ be the first in the array... or maybe it'll

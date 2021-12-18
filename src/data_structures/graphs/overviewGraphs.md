@@ -1,6 +1,13 @@
 # OVERVIEW: GRAPHS
 
 ## INTRODUCTION
+Graphs can be seen in the associations built between individuals and things on social media platforms and GPS software that helps guide us and provide directions 
+when navigating to another location.
+
+In code, they are represented by:
+- Adjacency List: A collection of arrays for each node.
+- Adjacency Matrix: A 2D Array
+
 
 ### RESOURCES
 [Graph Data Structure: Interview Questions and Practice Problems](https://medium.com/techie-delight/graph-data-structure-interview-questions-and-practice-problems-22d5cd488855)  

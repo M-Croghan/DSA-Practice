@@ -25,14 +25,6 @@ Determining the best sort to use can be tricky. It's important to consider:
 * Stability
 * Size & Structure of the Data
 
-##
-## MERGE SORT
-![img.png](img.png)
-
-## QUICK SORT
-![img_1.png](img_1.png)
-
-
 ### RESOURCES
 [Subjective Interview Questions on Bubble Sort Set 1](https://hoven-in.appspot.com/Home/Data-Structures/Data-Structure-Interview-Questions/interview-questions-on-bubble-sort-01.html)  
 [Programming with JS: Insertion Sort](https://hackernoon.com/programming-with-js-insertion-sort-1316df8354f5)  

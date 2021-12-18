@@ -44,6 +44,12 @@ A binary tree is said to be ‘balanced’ if the tree height is O(logN), where 
 ![img_6.png](img_6.png)
 
 
+## AVL Trees
+AVL tree is a binary search tree in which the difference of heights of left and right subtrees of any node is less than or equal to one.AVL Trees are ***self-balancing***. The tree rotates (balances) on a value in the tree to ensure that the height proportions are maintained.
+A difference of 0 - 1 in height between branches means the tree is balanced, where a difference greater than 1 means it is _unbalanced_.  
+![img_7.png](img_7.png)
+
+
 
 
 

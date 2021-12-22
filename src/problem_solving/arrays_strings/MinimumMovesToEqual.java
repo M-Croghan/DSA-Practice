@@ -1,4 +1,4 @@
-package problem_solving.arrays;
+package problem_solving.arrays_strings;
 // LEETCODE - 453. Minimum Moves to Equal Array Elements
 // DIFFICULTY: MEDIUM
 public class MinimumMovesToEqual {

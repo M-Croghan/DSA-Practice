@@ -17,3 +17,15 @@ many other types of data structures as well.
 
 
 - Insertion / Search / Deletion all maintain a time-complexity of O(n).
+
+### Common Uses of Arrays
+- Store / access sequential data
+- Temporarily store objects
+- Used in IO routines as a buffer
+- Lookup tables
+- Helps return multiple values in where only a single return value is allowed
+- Used in dynamic programming
+  - To cache answers to sub-routines
+    - Coin change / knapsack problems
+
+![img.png](img.png)

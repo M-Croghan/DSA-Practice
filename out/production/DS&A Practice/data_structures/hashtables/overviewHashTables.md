@@ -1,15 +1,22 @@
 # OVERVIEW: HASH TABLES
 ## INTRODUCTION
 Hash tables are list like data structures used to quickly store and retrieve data records via a hash function.
-They rely on key-values pairs whereby a key is associated with some address in memory. This process is called ***hashing***
-whereby an algorithm scrambles the key and returns an index to sort the key into the hash table.
+They rely on key-value pairs whereby a key is associated with some address in memory. This process is called ***hashing***
+in which an algorithm scrambles the key and returns an index to sort the key into the hash table.
 
-An effective hash function, is one in which the same input always returns the same output. Additionally, it should be relatively 
+An effective hash function, is one in which the same input always returns the same output (_imdopotent_). It should be relatively 
 simple, avoid collisions, and distribute values evenly. If a hash function is set up poorly, keys may be clumped together (i.e. clustering)
 which will prevent values from being distributed in the table evenly. ***Collisions*** are instances where two inputs map to the same index.
 Without addressing the collision, problems begin to arise.
 
-_Note_: Direct access tables are NOT hash tables! They may be time efficient, but are extremely inefficient in regard to space.
+_Note_:
+- Hash tables go by many names depending on the language:
+  - Hash maps
+  - Maps
+  - Dictionaries (Python)
+  - Objects (In JavaScript, acts as a type of hash table)  
+
+- Direct access tables are NOT hash tables! They may be time efficient, but are extremely inefficient in regard to space.
 
 ## Open Addressing
 Open addressing is a strategy to deal with collisions. In general, if a value is mapped to an index that is already occupied, 
@@ -48,6 +55,8 @@ multiple keys.
 | Remove       | Search function followed by deletion. Must flag that an element was deleted to ensure future probes know whether to stop or continue jumping. | Hash the key, then delete the element from the data structure at that particular index. |
 
 ![img.png](img.png)
+
+![img_1.png](img_1.png)
 ### RESOURCES
 [Hash Table Interview Questions](https://www.geeksforgeeks.org/top-20-hashing-technique-based-interview-questions/)  
 [Closed Addressing Visualization](https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html)  

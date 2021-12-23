@@ -1,12 +1,13 @@
 # OVERVIEW: STACKS
 ## INTRODUCTION
-Stacks are LIFO (Last In, First Out) data structures and can be found in browser navigation, undo text, and handling function calls.
+Stacks are linear, LIFO (Last In, First Out) data structures and can be found in browser navigation, undo text, and handling function calls.
 
 Stacks share many similarities with queues, in that they have similar and limited functionality:
-- Access O(1)
-- Insert O(1)
-- Delete O(1)
-- Check Empty O(1)  
+- Access (Peek) - O(1)
+- Insert (Push) - O(1)
+- Delete (Pop) - O(1)
+- Check Empty - O(1)  
+- Look-Up - O(n)  
 Additionally, stacks are also often implemented via an array / linked list.
 
 ### RESOURCES

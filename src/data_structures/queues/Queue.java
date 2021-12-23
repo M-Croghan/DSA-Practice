@@ -20,6 +20,11 @@ public class Queue {
 
     private Node head; // Remove from the head
     private Node tail; // Where things will be added
+    private int length;
+
+    public Queue() {
+        this.length = 0;
+    }
 
     public Node getHead(){
         return head;
@@ -48,7 +53,9 @@ public class Queue {
         if (head == null){
             head = node;
         }
+        length++;
     }
+
     public int  remove(){
         int data = head.data;
         head = head.next;
@@ -56,9 +63,12 @@ public class Queue {
         if (head == null){
             tail = null;
         }
+        length--;
         return data;
     }
 
-
+    public int getLength(){
+        return length;
+    }
 
 }

@@ -89,4 +89,22 @@ public class SinglyLinkedList {
         System.out.println(Arrays.toString(arr));
     }
 
+    // Study This!!!
+    public void reverseList(){
+        if (this.head.next == null){
+            return;
+        }
+        Node first = this.head;
+        this.tail = this.head;
+        Node second = first.next;
+        while (second != null){
+            Node temp = second.next;
+            second.next = first;
+            first = second;
+            second = temp;
+        }
+        this.head.next = null;
+        this.head = first;
+    }
+
 }

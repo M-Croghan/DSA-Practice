@@ -35,7 +35,27 @@ the JVM will handle garbage collection and deallocate that memory space.
   * Can traverse both directions.
     * ***BUT***: x2 more memory.
 
+### Pros / Cons
+* ***Singly Listed Lists***
+  * PROS
+    * Simple implementation
+    * Memory efficient
+  * CONS
+    * Cannot iterate in reverse
+    * If you lose reference to the head node, you may lose the list completely.
 
+* ***Doubly Linked Lists***
+  * PROS
+    * Easily traverse the list forwards & backwards
+  * CONS
+    * More complex implementation
+    * Requires more memory!
+
+
+![img_2.png](img_2.png)
+
+
+### Time / Space Complexity
 |               | SINGLY LINKED | DOUBLY LINKED |
 |---------------|---------------|---------------|
 |SEARCH         |      O(n)     |     O(n)      |

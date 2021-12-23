@@ -10,7 +10,8 @@ indicating the end of the list.
 
 It is important to highlight that pointers are merely a reference to a location in memory. When a value is created
 and a variable is assigned to it, any other variable assigned to the same value, will in fact be pointing to the same
-address in memory.
+address in memory. When a reference to a value is removed, and an object no longer has any references pointing at it, 
+the JVM will handle garbage collection and deallocate that memory space.
 
 ### Use Cases
 - Most common:
@@ -34,7 +35,27 @@ address in memory.
   * Can traverse both directions.
     * ***BUT***: x2 more memory.
 
+### Pros / Cons
+* ***Singly Listed Lists***
+  * PROS
+    * Simple implementation
+    * Memory efficient
+  * CONS
+    * Cannot iterate in reverse
+    * If you lose reference to the head node, you may lose the list completely.
 
+* ***Doubly Linked Lists***
+  * PROS
+    * Easily traverse the list forwards & backwards
+  * CONS
+    * More complex implementation
+    * Requires more memory!
+
+
+![img_2.png](img_2.png)
+
+
+### Time / Space Complexity
 |               | SINGLY LINKED | DOUBLY LINKED |
 |---------------|---------------|---------------|
 |SEARCH         |      O(n)     |     O(n)      |

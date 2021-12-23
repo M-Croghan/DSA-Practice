@@ -1,13 +1,17 @@
 # OVERVIEW: QUEUES
 ## INTRODUCTION
-Queues are FIFO (First In, First Out) data structures and can be found in how printers queue jobs to CPU scheduling tasks.
+Queues are linear, FIFO (First In, First Out) data structures and can be found in how printers queue jobs to CPU scheduling tasks.
 
 Queues share many similarities with stacks, in that they have similar and limited functionality:
-- Access O(1)
-- Insert O(1)
-- Delete O(1)
-- Check Empty O(1)  
-  Additionally, Queues are also often implemented via an array / linked list.
+- Access (Peek) - O(1)
+- Insert (Enqueue / Push) - O(1)
+- Delete (Dequeue / Pop) - O(1)
+- Check Empty - O(1)  
+- Look-Up - O(n)  
+
+Additionally, Queues can be implemented via an array / linked list. However, using an array is problematic and 
+should be avoided. When de-queuing items from a queue using an array implementation, ALL the elements must be shifted
+resulting in O(n) shifts. Using a linked list implementation only requires changing the head pointer.
 
 ### Priority Queues
 In a priority queue, every item maintains a priority which determines that items turn to exit the queue.

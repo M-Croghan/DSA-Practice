@@ -1,9 +1,17 @@
 # OVERVIEW OF LINKED LISTS
 ## INTRODUCTION
-A Linked list is a sequential list of nodes, each of which two pieces of information:  
+A Linked list is a sequential list of nodes, each of which holds two pieces of information:  
 - A Value: data stored in the node.
 - Pointer(s): A reference to the next node in the list.
-  - A doubly-linked list maintains 2 pointers one to the previous node & the next node.
+  - A doubly-linked list maintains 2 pointers, one to the previous node & the next node.
+
+Linked Lists are null terminated, which means that the _next pointer_ of the last name will be set to _null_, 
+indicating the end of the list.  
+
+It is important to highlight that pointers are merely a reference to a location in memory. When a value is created
+and a variable is assigned to it, any other variable assigned to the same value, will in fact be pointing to the same
+address in memory. When a reference to a value is removed, and an object no longer has any references pointing at it, 
+the JVM will handle garbage collection and deallocate that memory space.
 
 ### Use Cases
 - Most common:

@@ -1,5 +1,7 @@
 package problem_solving.arrays_strings;
 
+import java.util.HashMap;
+
 public class SimpleArrayStringProblems {
 
     // Reverse a string with StringBuilder
@@ -37,5 +39,18 @@ public class SimpleArrayStringProblems {
         }
 
         return merged;
+    }
+
+    public static int firstUniqueChar(String s) {
+        HashMap<Character, Integer> ht = new HashMap<>();
+        for (int i = 0; i < s.length(); i++){
+            if (ht.containsKey(s.charAt(i))){
+                return i;
+            }
+            else {
+                ht.put(s.charAt(i), i);
+            }
+        }
+        return -1;
     }
 }

@@ -1,7 +1,5 @@
 import data_structures.linkedlists.SinglyLinkedList;
 
-import java.util.HashMap;
-
 public class Main {
     public static void main(String[] args) {
 
@@ -17,19 +15,6 @@ public class Main {
         list.remove(8);
         list.printLinkedList();
 
-    }
-
-    public static int firstUniqueChar(String s) {
-        HashMap<Character, Integer> ht = new HashMap<>();
-        for (int i = 0; i < s.length(); i++){
-            if (ht.containsKey(s.charAt(i))){
-                return i;
-            }
-            else {
-                ht.put(s.charAt(i), i);
-            }
-        }
-        return -1;
     }
 
 }

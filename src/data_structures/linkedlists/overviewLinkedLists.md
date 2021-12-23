@@ -1,5 +1,42 @@
 # OVERVIEW OF LINKED LISTS
 ## INTRODUCTION
+A Linked list is a sequential list of nodes, each of which two pieces of information:  
+- A Value: data stored in the node.
+- Pointer(s): A reference to the next node in the list.
+  - A doubly-linked list maintains 2 pointers one to the previous node & the next node.
+
+### Use Cases
+- Most common:
+  - Lists
+    - Also, great for circular lists.
+  - Stacks
+  - Queues
+- More advanced: 
+  - Hash table chaining
+  - Adjacency lists.
+
+### Terminology
+* _Head_: 1st node in a linked list
+* _Tail_: Last node in a linked list
+* _Node_: Object containing data & pointer(s) to another node.
+* _Pointer_: Reference to another node.
+* SINGLY LINKED ----> points to the next node. 
+  * Less memory, simple implementation.
+    * ***BUT***: cannot easily access previous nodes.
+* DOUBLY LINKED <---> holds a reference to the previous and next node. 
+  * Can traverse both directions.
+    * ***BUT***: x2 more memory.
+
+
+|               | SINGLY LINKED | DOUBLY LINKED |
+|---------------|---------------|---------------|
+|SEARCH         |      O(n)     |     O(n)      |
+| Insert @ Head |       O(1)    |      O(1)     |
+| Insert @ Tail |      O(1)    |      O(1)      |
+| Remove @ Head |       O(1)    |      O(1)      |
+| Remove @ Tail |       O(n)    |     O(1)      |
+| Remove @ Middle|      O(n)    |      O(n)      |
+
 ### RESOURCES
 [Top 20 Linked List Interview Questions](https://www.geeksforgeeks.org/top-20-linked-list-interview-question/)  
 Includes:

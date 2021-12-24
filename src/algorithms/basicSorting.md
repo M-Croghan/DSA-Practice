@@ -14,6 +14,9 @@ Bubble Sort compares two items and makes swaps as it iterates over an array unti
 
 ## Insertion Sort
 Insertion sort takes each element and inserts them into the correct position. The first item is considered already sorted.
+While Bubble and Selection sort only have value in building an understanding of sorting. Insertion sort does excel in 
+one area: relatively small number of inputs or where the data is nearly sorted. In these cases the time complexity can 
+decrease to O(n).  
 
 ***Complexity:***
 - ***Time:*** O(N^2)

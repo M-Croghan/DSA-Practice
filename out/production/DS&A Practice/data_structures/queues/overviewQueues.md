@@ -8,7 +8,10 @@ Queues share many similarities with stacks, in that they have similar and limite
 - Delete (Dequeue / Pop) - O(1)
 - Check Empty - O(1)  
 - Look-Up - O(n)  
-  Additionally, Queues are also often implemented via an array / linked list.
+
+Additionally, Queues can be implemented via an array / linked list. However, using an array is problematic and 
+should be avoided. When de-queuing items from a queue using an array implementation, ALL the elements must be shifted
+resulting in O(n) shifts. Using a linked list implementation only requires changing the head pointer.
 
 ### Priority Queues
 In a priority queue, every item maintains a priority which determines that items turn to exit the queue.

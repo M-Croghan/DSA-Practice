@@ -11,22 +11,52 @@ public class BinaryTree {
 
         public TreeNode(int data){
             this.data = data;
+            this.left = null;
+            this.right = null;
         }
     }
 
-    public void createBinaryTree(){
-        TreeNode first = new TreeNode(1);
-        TreeNode second = new TreeNode(2);
-        TreeNode third = new TreeNode(3);
-        TreeNode fourth = new TreeNode(4);
-        TreeNode fifth = new TreeNode(5);
-
-        root = first; // Root points to the first node
-        // second (left) <--------- first ----------> third (right)
-        first.left = second;
-        first.right = third;
-
-        second.left = fourth;
-        second.right = fifth;
+    public BinaryTree(){
+        this.root = null;
     }
+
+    // INCOMPLETE
+    public void insert(int value){
+        TreeNode node = new TreeNode(value);
+        if (root == null){
+            this.root = node;
+        }
+        else{
+            TreeNode currentNode = this.root;
+            while (currentNode != null){
+                if (node.data > currentNode.data){
+                    currentNode = currentNode.right;
+                }
+                else if (node.data < currentNode.data){
+                    currentNode = currentNode.left;
+                }
+            }
+        }
+    }
+
+    // Returns the number of searches performed.
+    //INCOMPLETE
+    public int search(int value){
+        int counter = 0;
+        TreeNode current = root;
+        while (current != null){
+            if (value >= current.data){
+                current = current.right;
+                counter++;
+            }
+            else{
+                current = current.left;
+                counter++;
+            }
+            System.out.println("step");
+        }
+        return counter;
+    }
+
+
 }

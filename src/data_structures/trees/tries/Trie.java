@@ -1,4 +1,4 @@
-package data_structures.tries;
+package data_structures.trees.tries;
 
 public class Trie {
 

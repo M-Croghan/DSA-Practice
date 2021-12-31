@@ -16,9 +16,12 @@ or simply not present, you will still have to search a million items.
 - ***Space:*** O(1)
 
 ## Binary Search
-Binary search can dramatically reduce our search time! However, it requires whatever we are searching to be in sorted order! In a sorted collection
-binary search begins by targeted the middle element of the collection as its first search (or the item to the left of the middle when there are an even number of items).
-From here, if the item is found, great! the search ends. If not, the next search will take place in one of the two partitions. The left partition contains all the values
+Binary search can dramatically reduce our search time! However, it requires whatever we are searching to be in sorted 
+order! In a sorted collection
+binary search begins by targeting the middle element of the collection as its first search (or the item to the left of 
+the middle when there are an even number of items).
+From here, if the item is found, great! the search ends. If not, the next search will take place in one of the two 
+partitions. Because the collection is in sorted order: The left partition contains all the values
 ***less than*** the first searched item, and the right partition contains values ***greater than*** the first searched item. Binary search will jump into one of these two partitions
 depending on the values it seeks. It takes the same approach, starting in the middle, checking for the value, and halving the remaining values to search.  
 
@@ -39,3 +42,6 @@ the searched number should be / can be inserted.
 ***Complexity:***
 - ***Time:*** O(log n)
 - ***Space:*** O(1)
+
+The beauty of sorted elements is that they can be easily visualized as a binary tree:
+![img_6.png](img_6.png)

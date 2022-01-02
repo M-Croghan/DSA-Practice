@@ -1,7 +1,7 @@
 # DEPTH-FIRST & BREADTH-FIRST SEARCH
 Depth-first Search (DFS) and Breadth-first Search are two ways in which we can
 traverse graphs and trees.  
-![img_2.png](img_2.png)  
+![img_2.png](img/img_2.png)  
 
 - ***Depth-First*** - Gets as far from the root as possible. It travels to a terminating node before back-tracking. It
 can be slow if the tree is very deep, but it has a lower memory requirement and helps determine if a path exists.
@@ -10,7 +10,7 @@ can be slow if the tree is very deep, but it has a lower memory requirement and 
   - In-Order
   - Post-Order
   - 
-![img_5.png](img_5.png)
+![img_5.png](img/img_5.png)
   
 - DFS is best used when:
   - Value is closer to the bottom / further away.

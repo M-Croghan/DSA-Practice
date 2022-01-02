@@ -44,4 +44,4 @@ the searched number should be / can be inserted.
 - ***Space:*** O(1)
 
 The beauty of sorted elements is that they can be easily visualized as a binary tree:
-![img_6.png](img_6.png)
+![img_6.png](img/img_6.png)

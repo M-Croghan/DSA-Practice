@@ -1,7 +1,7 @@
 # DIVIDE & CONQUER SORTING ALGORITHMS - (Merge Sort, Quick Sort)
 
 ## MERGE SORT
-![img.png](img.png)
+![img.png](img/img.png)
 Merge sort is a stable sorting algorithm that splits a collection repeatedly until it is broken into individual pieces. 
 After split apart, it is merged back together in sorted order. Overall, it is based on two main premises:
 * A single item list is easy to sort.
@@ -24,7 +24,7 @@ and Firefox in their JavaScript implementation of .sort().
 - ***Space:*** O(n)
 
 ## QUICK SORT
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 Quick sort is an unstable sorting algorithm that begins by choosing an element within an array as a ***pivot***. This pivot 
 is typically the first or last item in the array and acts as a divider on which the array is split into two partitions.
 These partitions hold the values being either less than or greater than the value of the pivot.  

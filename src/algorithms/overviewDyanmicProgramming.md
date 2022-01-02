@@ -23,7 +23,7 @@ complexity! By using memoization we can cache the many repetitive calculations w
 time complexity to O(n) while increasing the space complexity.
 
 
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 
 
 In the above image, Fib(2) is done twice! The initial parameter is 4, which is fairly small. If it grows larger, 
@@ -32,4 +32,4 @@ returned from them (stored in the cache) rather than proceeding to repeat the ca
 Dynamic programming is often thought of as the combination of divide & conquer problem-solving and memoization.
 
 ### STEPS TO SOLVING A PROBLEM WITH MEMOIZATION
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)

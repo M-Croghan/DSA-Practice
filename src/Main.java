@@ -1,14 +1,15 @@
-import algorithms.code.QuickSort;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        QuickSort qs = new QuickSort();
-        int[] arr = {4,3,2,1};
+        int[] nums = {-8, -7, 3, 4, 5, -2, 0, 1};
 
-//        System.out.println(Arrays.toString(arr));
-//        qs.quickSort(arr);
-//        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(nums));
 
+        System.out.println(Arrays.toString(nums));
     }
+
+
+
 
 }

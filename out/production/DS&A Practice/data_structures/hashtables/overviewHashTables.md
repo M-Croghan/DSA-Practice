@@ -54,9 +54,9 @@ multiple keys.
 | Insert       | Hash key at the index or probe until empty index is found | Hash key at the index and add to the existing data structure. |
 | Remove       | Search function followed by deletion. Must flag that an element was deleted to ensure future probes know whether to stop or continue jumping. | Hash the key, then delete the element from the data structure at that particular index. |
 
-![img.png](img.png)
+![img.png](img/img.png)
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 ### RESOURCES
 [Hash Table Interview Questions](https://www.geeksforgeeks.org/top-20-hashing-technique-based-interview-questions/)  
 [Closed Addressing Visualization](https://www.cs.usfca.edu/~galles/visualization/ClosedHash.html)  

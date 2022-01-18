@@ -35,9 +35,9 @@ it is still an important factor to consider. At times, there may exist a trade-o
 
 
 ## TIME / SPACE COMPLEXITY OF COMMON DATA STRUCTURES
-![img.png](img.png)
+![img.png](img/img.png)
 ## TIME / SPACE COMPLEXITY OF COMMON ALGORITHMS
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 The following table shows how algorithms with different complexities scale when given different numbers of inputs. 
 Note: some values are rounded.  

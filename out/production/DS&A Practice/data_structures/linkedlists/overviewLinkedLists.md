@@ -52,7 +52,7 @@ the JVM will handle garbage collection and deallocate that memory space.
     * Requires more memory!
 
 
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 
 
 ### Time / Space Complexity

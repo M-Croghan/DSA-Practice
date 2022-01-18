@@ -28,4 +28,4 @@ many other types of data structures as well.
   - To cache answers to sub-routines
     - Coin change / knapsack problems
 
-![img.png](img.png)
+![img.png](img/img.png)

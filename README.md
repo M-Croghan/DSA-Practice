@@ -21,6 +21,13 @@ This project is broken down into 5 key areas:
 * Problem-Solving: Common Coding Problems
 * Design Patterns: Solving Common Problems
 
+**EDIT - 02/20/2022** - I'm in the process of revamping this repository to be a little more organized and draw
+from more / new sources of information. These sources include:
+1. Introduction to Algorithms - 3rd Edition (CLRS)
+2. Dr. Tim Roughgarden of Stanford University - Course on Algorithms
+3. Cracking the Coding Interview - Gayle Laakman McDowell
+4. Analysis of LeetCode Patterns - Sean Prashad
+
 ## TABLE OF CONTENTS
 ### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsa_concepts)
 * [Intro to Big-O](https://github.com/M-Croghan/DSA-Practice/blob/main/src/dsa_concepts/bigO.md#big-o--complexity-analysis)

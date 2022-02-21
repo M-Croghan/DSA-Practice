@@ -28,7 +28,7 @@ from more / new sources of information. These sources include:
 2. Dr. Tim Roughgarden of Stanford University - Course on Algorithms
 3. Cracking the Coding Interview - Gayle Laakman McDowell
 4. Analysis of LeetCode Patterns - Sean Prashad
-[]()
+[About](https://m-croghan.github.io/DSA-Practice/docs/about.html)
 
 ## TABLE OF CONTENTS
 ### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsa_concepts)

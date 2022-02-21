@@ -1,6 +1,7 @@
-# ALGORITHMIC PROBLEM SOLVING: DATA STRUCTURES & ALGORITHMS 
+# ALGORITHMIC PROBLEM SOLVING
+## MASTERING DATA STRUCTURES & ALGORITHMS 
 
-## INTRODUCTION
+### INTRODUCTION
 As a fresh computer science graduate, it became glaringly obvious that I had a tremendous amount to learn
 in the way of solving complex problems. While I had been exposed to data structures and algorithms, my confidence
 / proficiency in using them was lacking. Knowing that the barrier for an entry-level software engineering position

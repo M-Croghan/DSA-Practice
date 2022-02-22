@@ -1,5 +1,5 @@
 # ALGORITHMIC PROBLEM SOLVING
-## MASTERING DATA STRUCTURES & ALGORITHMS 
+## EDIT 02/22/2022: This repository is officially ***retired***. I had the intention of coming back and doing a major overhaul but recognized that the scope of this repo is extremely broad. Additionally, it places a heavy emphasis on viewing important topics through the lens of Java. The reality is, learning data structures & algorithms, asymptotic analysis, problem-solving, and design patterns are best learned from an agnostic perspective. I intend to explore these topics with a more focused approach.
 
 ### INTRODUCTION
 As a fresh computer science graduate, it became glaringly obvious that I had a tremendous amount to learn
@@ -21,14 +21,6 @@ This project is broken down into 5 key areas:
 * Algorithms: Searching, Sorting, & Beyond
 * Problem-Solving: Common Coding Problems
 * Design Patterns: Solving Common Problems
-
-**EDIT - 02/20/2022** - I'm in the process of revamping this repository to be a little more organized and draw
-from more / new sources of information. These sources include:
-1. Introduction to Algorithms - 3rd Edition (CLRS)
-2. Dr. Tim Roughgarden of Stanford University - Course on Algorithms
-3. Cracking the Coding Interview - Gayle Laakman McDowell
-4. Analysis of LeetCode Patterns - Sean Prashad
-[About](https://m-croghan.github.io/DSA-Practice/docs/about.html)
 
 ## TABLE OF CONTENTS
 ### [DS&A CONCEPTS](https://github.com/M-Croghan/DSA-Practice/tree/main/src/dsa_concepts)
